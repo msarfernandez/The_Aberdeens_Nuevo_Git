@@ -109,7 +109,7 @@ textarea {
     .disco-fantasma{
         width: 1em;
         display: inline-block;;
-    }   
+    }
     .musica{
         /*background-color: #0968BB; */
         background-image: url('../img/footer-3.png');
@@ -123,8 +123,14 @@ textarea {
         background-repeat: repeat;
     }
     .galeria{
+        background-image: url('../img/patrones/galeria.png');
+        background-repeat: repeat;
         margin:0;
         text-align: center;
+    }
+    .eventos{
+      background-image: url('../img/nosotros.png');
+      background-repeat: repeat;
     }
     .fotos{
         display: inline-block;
@@ -137,7 +143,9 @@ textarea {
     }
     .borde-superior{
         border-top:10px solid #0968BB;
-        
+    }
+    .borde-inferior{
+        border-bottom:10px solid #0968BB;
     }
     .media-music{
         height: 75px;
@@ -175,12 +183,91 @@ textarea {
         text-align: center;
         height: 1000px;
     }
+    .img-evento{
+      width: 100%;
+      display: block;
+    }
+
+
+/*Esto es para la fecha de los eventos*/
+figure {
+  margin: 30px auto;
+  width: 64px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  float:left;
+  border: solid 2px black;
+}
+figure div {
+  width: 60px;
+  height: 27px;
+  position: absolute;
+  top: -1px;
+  background-color: #fa565a;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 3px solid #e5e5e5;
+  font: 400 15px/27px Arial, Helvetica, Geneva, sans-serif;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-align: center;
+}
+figure section {
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  font: 400 2.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  letter-spacing: -2px;
+  color: #4c566b;
+  text-align: center;
+  z-index: 10;
+}
 
 
 
 
 
+/*Estilo para Dialog Box de Material Design Lite*/
 
+    .mdl-dialog {
+      border: none;
+      box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 1), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+      width: 280px; }
+      .mdl-dialog__title {
+        padding: 24px 24px 0;
+        margin: 0;
+        font-size: 2.5rem; }
+      .mdl-dialog__actions {
+        padding: 8px 8px 8px 24px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row-reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .mdl-dialog__actions > * {
+          margin-right: 8px;
+          height: 36px; }
+          .mdl-dialog__actions > *:first-child {
+            margin-right: 0; }
+        .mdl-dialog__actions--full-width {
+          padding: 0 0 8px 0; }
+          .mdl-dialog__actions--full-width > * {
+            height: 48px;
+            -webkit-flex: 0 0 100%;
+                -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+            padding-right: 16px;
+            margin-right: 0;
+            text-align: right; }
+      .mdl-dialog__content {
+        padding: 20px 24px 24px 24px;
+        color: rgba(0,0,0, 0.54); }
 
 
 

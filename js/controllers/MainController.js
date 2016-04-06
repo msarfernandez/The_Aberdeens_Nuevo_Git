@@ -1,6 +1,6 @@
-app.controller('ProductsController', ['$scope', function($scope, $firebaseObject){
+app.controller('MainController', ['$scope', function($scope){
 
-	$scope.eventos = 
+	$scope.eventos =
 	[
 	{
 		titulo: 'en vivo en...',
