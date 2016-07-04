@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--verificacion de web master de google -->
+	<meta name="google-site-verification" content="_sBoQ61TJ0mYD5UedeNhkw8zGr2n2JU-5JjaQXI_JXk" />
 	<title>The Aberdeens</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The Aberdeens, grupo de Rock Alternativo. De Buenos Aires, Argentina.">
+	<meta name="keywords" content="the aberdeens, los aberdeens, aberdeens, punk alternativo, punk, aberdeens punk, Rock, Rock alternativo">
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -12,27 +16,24 @@
 	<link rel="stylesheet" type="text/css" href="css/befrisky.css">
 	<!-- Angular -->
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-	<!-- Angular para modal box con angular y boostrap -->
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
-	<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.4.js"></script>
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <script src="js/libs/angular-1.5.3/angular.min.js" charset="utf-8"></script> -->
+
 	<!-- parrallax -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/parallax/parallax.js"></script>
 	<!-- BOOSTRAP 4 para cards de eventos-->
-	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+ 	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
 	<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 
-	<!-- Add fancyBox -->
+	<!-- fancyBox -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" type="text/css" media="screen" />
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 	<!-- Material Design icon font -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-
 </head>
-<body ng-app="AberdeensApp" ng-controller="MainController">
+
+<body ng-app="AberdeensApp" ng-controller="MainController" ng-cloak>
 
 <style type="text/css">
 	p{
@@ -86,11 +87,9 @@
 		margin: auto;
 	}
 
-
 </style>
 
-
-<header>
+<header title="The Aberdeens">
 	<section>
 		<h1>The Aberdeens</h1>
 		<!--<ul>
@@ -108,8 +107,7 @@
 			<iframe width="100%" height="700px" src="https://www.youtube.com/embed/obVzPp-cgCs" frameborder="0" allowfullscreen></iframe>
 	</section>
 
-
-
+	<!-- NOSOTROS -->
 	<section id="nosotros" class="nosotros">
 
 		<h2>NOSOTROS</h2>
@@ -120,253 +118,257 @@
 		<!-- <img src="img/grupal2.jpg" style="width:100%;"> -->
 	</section>
 
-	<section id="galeria" class="galeria borde-inferior">
+	<!-- GALERIA -->
+	<section id="galeria" class="galeria borde-inferior" align="center">
 		<h2>GALERÍA</h2>
-		<div class="fotos">
-	  		<a class="imagennn" rel="gallery1" href="img/seba_flores.jpg">
-	    		<img src="img/seba_flores_chico.png" alt="Nicolás Lisanti" width="250" height="250">
-	  		</a>
-	  		<div>Sebastián Avila</div>
+		<div style="width:80%; margin: 0 auto;">
+			<div class="fotos">
+		  		<a class="imagennn" rel="gallery1" href="img/seba_flores.jpg">
+		    		<img src="img/seba_flores_chico.png" alt="Sebastián Avila" width="250" height="250">
+		  		</a>
+		  		<div>Sebastián Avila</div>
+			</div>
+			<div class="fotos">
+		  		<a class="imagennn" rel="gallery1" href="img/nico_flores.jpg">
+		    		<img src="img/nico_flores_chico.png" alt="Nicolás Lisanti" width="250" height="250">
+		  		</a>
+		  		<div>Nicolás Lisanti</div>
+			</div>
+			<div class="fotos">
+		  		<a class="imagennn" rel="gallery1" href="img/max_flores.jpg">
+		    		<img src="img/max_flores_chico.png" alt="Max Sar Fernández" width="250" height="250">
+		  		</a>
+		  		<div>Max Sar Fernández</div>
+			</div>
+
+			<!-- MAS -->
+			<div class="fotos">
+					<a class="video" rel="gallery1" href="https://www.youtube.com/watch?v=I4XFrwGu0Vk">
+						<img src="img/i-wanna-chico.png" alt="The Aberdeens" width="250" height="250">
+					</a>
+					<div>I Wanna Be Alone (Video Oficial)</div>
+			</div>
+			<div class="fotos">
+					<a class="video" rel="gallery1" href="https://www.youtube.com/watch?v=sQ2sLuoXmss">
+						<img src="img/the-mutant-chico.png" alt="The Aberdeens" width="250" height="250">
+					</a>
+					<div>The Mutant (Lyric Video)</div>
+			</div>
+			<div class="fotos">
+					<a class="imagennn" rel="gallery1" href="img/the-aberdeens-estudio.jpg">
+						<img src="img/the-aberdeens-estudio-chico.png" alt="The Aberdeens Estudio" width="250" height="250">
+					</a>
+					<div>The Aberdeens Estudio</div>
+			</div>
 		</div>
-		<div class="fotos">
-	  		<a class="imagennn" rel="gallery1" href="img/nico_flores.jpg">
-	    		<img src="img/nico_flores_chico.png" alt="Nicolás Lisanti" width="250" height="250">
-	  		</a>
-	  		<div>Nicolás Lisanti</div>
-		</div>
-		<div class="fotos">
-	  		<a class="imagennn" rel="gallery1" href="img/max_flores.jpg">
-	    		<img src="img/max_flores_chico.png" alt="Max Sar Fernández" width="250" height="250">
-	  		</a>
-	  		<div>Max Sar Fernández</div>
-		</div>
-		<div class="fotos">
-				<a target="_blank" href="img/seba_flores.jpg">
-					<img src="img/seba_flores_chico.png" alt="Nicolás Lisanti" width="250" height="250">
-				</a>
-				<div>Sebastián Avila</div>
-		</div>
-		<div class="fotos">
-				<a target="_blank" href="img/nico_flores.jpg">
-					<img src="img/nico_flores_chico.png" alt="Nicolás Lisanti" width="250" height="250">
-				</a>
-				<div>Nicolás Lisanti</div>
-		</div>
-		<div class="fotos">
-				<a target="_blank" href="img/max_flores.jpg">
-					<img src="img/max_flores_chico.png" alt="Max Sar Fernández" width="250" height="250">
-				</a>
-				<div>Max Sar Fernández</div>
-		</div>
+
+
 	</section>
 
-<!-- Imagen del efecto parallax -->
-<div class="parallax-container" data-parallax="scroll" data-image-src="img/grupal2.jpg" alt="The Aberdeens"></div>
+	<!-- Imagen del efecto parallax -->
+	<div class="parallax-container" data-parallax="scroll" data-image-src="img/grupal2.jpg" alt="The Aberdeens"></div>
 
-<!-- MUSICA -->
-<section id="musica" class="musica borde-superior">
-	<h2>MÚSICA</h2>
-	<div class="discos">
+	<!-- MUSICA -->
+	<section id="musica" class="musica borde-superior">
+		<h2>MÚSICA</h2>
+		<div class="discos">
 
-		<div class="escuchar-discos">
-			<h3>Mundo De Colores - 2015</h3>
-			<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1401540546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://losaberdeens.bandcamp.com/album/mundo-de-colores-2">Mundo de Colores by Los Aberdeens</a></iframe>
-			<div>
-				<!-- Boton hecho con boostrap -->
-				<!-- <a class="btn btn-info" href="#">Ficha</a> -->
-				<!-- Boton hecho con Material pero las primeras dos clases son estilo de boostrap -->
-				<!-- es para llamar al dialog de material -->
-				<!-- <button id="btnMundo" class="btn btn-info dialog-button">Ficha</button> -->
-				<!-- Ahora lo hago con Boostrap -->
-				<button class="btn btn-info dialog-button" data-toggle="modal" data-target=".bd-example-modal-lg">
-					Ficha
-				</button>
+			<div class="escuchar-discos">
+				<h3>Mundo De Colores - 2015</h3>
+				<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1401540546/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://losaberdeens.bandcamp.com/album/mundo-de-colores-2">Mundo de Colores by Los Aberdeens</a></iframe>
+				<div>
+					<button class="btn btn-info dialog-button" data-toggle="modal" data-target="#mundoDisco">
+						Ficha
+					</button>
+					<a class="btn btn-info" href="https://losaberdeens.bandcamp.com/" target="_blank">
+						Comprar
+					</a>
+				</div>
+			</div>
+
+			<div class="escuchar-discos">
+				<h3>Los Años Perdidos - 2013</h3>
+				<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1840810706/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://losaberdeens.bandcamp.com/album/los-a-os-perdidos">Los Años Perdidos by The Aberdeens</a></iframe>
+				<div>
+					<!-- <a class="btn btn-info" href="#">Ficha</a> -->
+					<button class="btn btn-info dialog-button" data-toggle="modal" data-target="#aniosDisco">
+						Ficha
+					</button>
+					<a class="btn btn-info" href="http://articulo.mercadolibre.com.ar/MLA-604747545-the-aberdeens-los-anos-perdidos-cd-2013-_JM" target="_blank">
+						Comprar
+					</a>
+				</div>
 			</div>
 		</div>
 
-		<div class="escuchar-discos">
-			<h3>Los Años Perdidos - 2013</h3>
-			<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1840810706/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://losaberdeens.bandcamp.com/album/los-a-os-perdidos">Los Años Perdidos by The Aberdeens</a></iframe>
-			<div>
-				<!-- <a class="btn btn-info" href="#">Ficha</a> -->
-				<button id="btnAnios" class="btn btn-info dialog-button">Ficha</button>
-				<a class="btn btn-info" href="http://articulo.mercadolibre.com.ar/MLA-604747545-the-aberdeens-los-anos-perdidos-cd-2013-_JM" target="_blank">
-					Comprar
-				</a>
+		<p style="margin:0;padding-bottom:2em;text-align:center;">
+			También podés escuchar nuestra música en Spotify, iTunes, BandCamp, Deezer, YouTube. Hacé clic y agreganos a tu lista de reproducción!
+		</p>
+
+		<div style="text-align:center; padding-bottom:2em;">
+			<a href="spotify:album:4u9tcO0WNGsV5iUM7VbGZd">
+				<img class="media-music" src="img/spoti-flat.png">
+			</a>
+			<img class="media-music" src="img/itunes-flat.png">
+			<a href="http://www.deezer.com/album/11191550?utm_source=deezer&utm_content=album-11191550&utm_term=964323986_1462057077&utm_medium=web" target="_blank">
+				<img class="media-music" src="img/deezer-flat.png">
+			</a>
+			<a href="https://www.youtube.com/watch?v=XhJQGRGHIEQ" target="_blank">
+				<img class="media-music" src="img/youtube-flat.png">
+			</a>
+		</div>
+
+	</section>
+
+	<!-- VIDEO DOS -->
+	<iframe width="100%" height="700px" src="https://www.youtube.com/embed/b-T-HgCBf_Q" frameborder="0" allowfullscreen></iframe>
+	<!-- <iframe width="100%" height="700px" src="https://www.youtube.com/embed/I4XFrwGu0Vk" frameborder="0" allowfullscreen></iframe> -->
+
+	<!-- EVENTOS -->
+	<section id="eventos" class="eventos">
+		<h2>EVENTOS</h2>
+			<p>Estamos preparando nuevo contenido para este 2016 mientras diagramamos shows para seguir presentando nuestro reciente trabajo de estudio: "Mundo De Colores".</p>
+			<p align="center">
+				<strong>Próximamente más info! Mientras tanto, seguinos en nuestras redes:</strong>
+			</p>
+			<div class="redes-sociales">
+				<div style="text-align:center; padding-bottom:2em;">
+					<a href="https://twitter.com/LosAberdeens" target="_blank">
+						<img class="media-music" src="img/icons/twitter-icon.png">
+					</a>
+					<a href="https://www.facebook.com/LosAberdeensBand/?ref=bookmarks" target="_blank">
+						<img class="media-music" src="img/icons/facebook.png">
+					</a>
+					<a href="https://www.youtube.com/user/losaberdeens" target="_blank">
+						<img class="media-music" src="img/icons/youtube-icon.png">
+					</a>
+					<a href="https://www.instagram.com/losaberdeens/" target="_blank">
+						<img class="media-music" src="img/icons/instagram-icon.png">
+					</a>
+				</div>
+			</div>
+
+	</section>
+
+
+	<!-- FOOTER -->
+	<footer style="background-color:#3a3a3a; height:10em; padding:1em;">
+		<p style="color:white;text-align:center;">The Aberdeens || 2016
+			<br><a href="http://www.letme.com.ar" target="_blank" >let me</a></p>
+		<p style="color:white;text-align:center;">theaberdeens@hotmail.com</p>
+	</footer>
+
+	<!-- Dialog Mundo de colores -->
+	<div id="mundoDisco" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Mundo De Colores (2015)</h4>
+				</div>
+				<p>
+					<strong>The Aberdeens</strong> son: Nicolás Lisanti (guitarra y voz), Sebastián Avila (bajo) y Max Sar Fernández (batería y coros).<br>
+					Grabado y mezclado entre Diciembre de 2014 y Mayo de 2015 en el estudio Camarón Brujo.<br>
+					Asistentes de grabación y mezcla: Estanislao Aquilino y Matías “Catu” Suarez.<br>
+					Drum Doctor: Nicolás Echenique. <br>
+					Masterizado en Puro Mastering.<br>
+					Ingeniero de mastering: Federico Fragalá.<br>
+					Asistente de mastering: Matias Maglio.<br>
+					Arte de tapa: Denise Fabero.<br>
+					Todos los temas compuestos por Nicolás Lisanti.<br>
+					Producido por The Aberdeens.<br>
+				</p>
+
+			</div>
+		</div>
+	</div>
+	<!-- DIALOG Los años perdidos. -->
+	<div id="aniosDisco" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">Los Años Perdidos (2013)</h4>
+				</div>
+				<p>
+					<strong>The Aberdeens</strong> son: Nicolás Lisanti (guitarra y voz), Sebastián Avila (bajo) y Max Sar Fernández (batería y coros).<br>
+					Grabado y mezclado entre Enero y Agosto de 2012 en Yeta Studios por Pato Sloomant.<br>
+					Masterizado en Estudios Orion.<br>
+					Asistente de mastering: Matias Maglio.<br>
+					Fotografía: Carlos Miyama.<br>
+					Arte de tapa: Diego Gallardo.<br>
+					Todos los temas compuestos por Nicolás Lisanti.<br>
+					Producido por The Aberdeens.<br>
+				</p>
+
 			</div>
 		</div>
 	</div>
 
-	<p style="margin:0;padding-bottom:2em;text-align:center;">
-		También podés escuchar nuestra música en Spotify, iTunes, BandCamp, Deezer, YouTube. Hacé clic y agreganos a tu lista de reproducción!
-	</p>
+	<!-- script para pasar a libreria. Es del parallax. -->
+	<script>
+	$(document).ready(function() {
+	      $(function(){
+	        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+	          $('#ios-notice').removeClass('hidden');
+	          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+	        } else {
+	          $(window).resize(function(){
+	            var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
+	            $('.parallax-container').height(parallaxHeight);
+	          }).trigger('resize');
+	        }
+	      });
+				$(".imagennn").fancybox({
+					openEffect	: 'elastic',
+					closeEffect	: 'elastic',
 
-	<div style="text-align:center; padding-bottom:2em;">
-		<img class="media-music" src="img/spoti-flat.png">
-		<img class="media-music" src="img/itunes-flat.png">
-		<img class="media-music" src="img/deezer-flat.png">
-		<img class="media-music" src="img/youtube-flat.png">
-	</div>
-
-</section>
-
-<!-- VIDEO DOS -->
-<iframe width="100%" height="700px" src="https://www.youtube.com/embed/I4XFrwGu0Vk" frameborder="0" allowfullscreen></iframe>
-
-<!-- EVENTOS -->
-<section id="eventos" class="eventos">
-	<h2>EVENTOS</h2>
-		<p>Estamos preparando nuevo contenido para este 2016 mientras diagramamos shows para seguir presentando nuestro reciente trabajo de estudio: "Mundo De Colores".</p>
-
-		<div class="card-columns" style="padding-left:1em; padding-right:1em;">
-
-		  <div class="card">
-		    <img class="card-img-top img-evento" src="img/flyers/TheAberdeensAcusticoMutarBar.jpg" alt="Card image cap">
-		    <div class="card-block">
-		      <h4 class="card-title">En vivo en Pacheco.</h4>
-		      <p class="card-text">Estaremos presentando tocando temas en formato acústico de nuestro nuevo disco "Mundo de Colores".</p>
-		    </div>
-				<div class="card-block">
-					<!-- esto seria la fecha... -->
-					<figure>
-								<div>
-									<script>
-										//aca tendria que poner variables para las fechas
-										var	day = new Date("February 28, 2016").getDay();
-										week = new Array('Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab');
-					 					document.write(week[day]);
-									</script>
-								</div>
-								<section>
-									<script>
-									// aca tendria que poner variables para la fecha
-										document.write(new Date("February 28, 2016").getDate());
-									</script>
-								</section>
-					</figure>
-					<!-- hasta aca la fecha -->
-					<i class="material-icons" style="font-size: 70px;">place</i>
-					<img src="img/icons/facebook.svg" style="height: 70px; weight: 70px;" alt="" />
-		  	</div>
-
-		</div>
-			<!-- aca termina el card -->
-
-
-		</div>
-
-
-
-		<!-- Large modal -->
-		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg">
-		    <div class="modal-content">
-					<div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		        <h4 class="modal-title">Mundo De Colores (2015)</h4>
-		      </div>
-					<p>
-						<strong>The Aberdeens</strong> son: Nicolás Lisanti (guitarra y voz), Sebastián Ávila (bajo) y Max Sar Fernández (batería y coros).<br>
-						Grabado y mezclado entre Diciembre de 2014 y Mayo de 2015 en el estudio Camarón Brujo.<br>
-						Asistentes de grabación y mezcla: Estanislao Aquilino y Matías “Catu” Suarez.<br>
-						Masterizado en Puro Mastering.<br>
-						Ingeniero de mastering: Federico Fragalá.<br>
-						Asistente de mastering: Matias Maglio.<br>
-						Todos los temas compuestos por Nicolás Lisanti.<br>
-						Producido por The Aberdeens.<br>
-						Arte de tapa: Denise Fabero.<br>
-					</p>
-
-		    </div>
-		  </div>
-		</div>
-
-</section>
-
-<footer style="background-color:#3a3a3a; height:10em; padding:1em;">
-	<p style="color:white;text-align:center;">The Aberdeens || 2016</p>
-	<p style="color:white;text-align:center;">TW || FB || YT || SPOTY</p>
-</footer>
-
-<!-- modal box de material -->
-<dialog id="dialog" class="mdl-dialog" style="width:60%;">
-  <h3>Mundo De Colores (2015)</h3>
-  <div class="mdl-dialog__content">
-    <p>
-			<strong>The Aberdeens</strong> son: Nicolás Lisanti (guitarra y voz), Sebastián Ávila (bajo) y Max Sar Fernández (batería y coros).<br>
-			Grabado y mezclado entre Diciembre de 2014 y Mayo de 2015 en el estudio Camarón Brujo.<br>
-			Asistentes de grabación y mezcla: Estanislao Aquilino y Matías “Catu” Suarez.<br>
-			Masterizado en Puro Mastering.<br>
-			Ingeniero de mastering: Federico Fragalá.<br>
-			Asistente de mastering: Matias Maglio.<br>
-			Todos los temas compuestos por Nicolás Lisanti.<br>
-			Producido por The Aberdeens.<br>
-			Arte de tapa: Denise Fabero.<br>
-    </p>
-  </div>
-  <div class="mdl-dialog__actions">
-    <button type="button" class="mdl-button">Cerrar</button>
-  </div>
-</dialog>
-
-<dialog id="dialog2">
-  <h3>Los Años Perdidos (2013)</h3>
-  <div>
-    <p>
-			<strong>The Aberdeens</strong> son: Nicolás Lisanti (guitarra y voz), Sebastián Ávila (bajo) y Max Sar Fernández (batería y coros).<br>
-			Grabado y mezclado entre Enero y Agosto de 2012 en Yeta Studios por Pato Sloomant. <br>
-			Masterizado en Estudios Orion. <br>
-			Todos los temas compuestos por Nicolás Lisanti. <br>
-			Fotografía: Carlos Miyama. <br>
-			Arte de tapa: Diego Gallardo.
-    </p>
-  </div>
-  <div class="mdl-dialog__actions">
-    <button type="button" class="mdl-button">Cerrar</button>
-  </div>
-</dialog>
-
-<!-- script para pasar a libreria. Es del parallax. -->
-<script>
-$(document).ready(function() {
-      $(function(){
-        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-          $('#ios-notice').removeClass('hidden');
-          $('.parallax-container').height( $(window).height() * 0.5 | 0 );
-        } else {
-          $(window).resize(function(){
-            var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
-            $('.parallax-container').height(parallaxHeight);
-          }).trigger('resize');
-        }
-      });
-			$(".imagennn").fancybox({
-				openEffect	: 'elastic',
-				closeEffect	: 'elastic',
-
-				helpers : {
-					title : {
-						type : 'inside'
+					helpers : {
+						title : {
+							type : 'inside'
+						}
 					}
-				}
-			});
+				});
 
-			});
+				});
 
-</script>
+				$(".video").click(function() {
+					$.fancybox({
+						'padding'		: 0,
+						'autoScale'		: false,
+						'transitionIn'	: 'none',
+						'transitionOut'	: 'none',
+						'title'			: this.title,
+						'width'			: 640,
+						'height'		: 385,
+						'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+						'type'			: 'swf',
+						'swf'			: {
+						'wmode'				: 'transparent',
+						'allowfullscreen'	: 'true'
+						}
+					});
 
-		<script src="js/varios/metodosMaterial.js" type="text/javascript"></script>
+					return false;
+				});
 
-		<!-- Modules -->
-    <script src="js/app.js"></script>
+	</script>
 
-    <!-- Controllers -->
-    <!-- <script src="js/controllers/MainController.js"></script> -->
-    <!-- Directives -->
-    <!-- <script src="js/directives/appInfo.js"></script> -->
+	<!-- Modules -->
+  <script src="js/app.js"></script>
 
+  <!-- Controllers -->
+  <script src="js/controllers/MainController.js"></script>
+  <!-- Directives -->
+  <!-- <script src="js/directives/appInfo.js"></script> -->
+	<!-- Directives -->
+  <script src="js/directives/fechaFigure.js"></script>
 
 </body>
+
+
 </html>
